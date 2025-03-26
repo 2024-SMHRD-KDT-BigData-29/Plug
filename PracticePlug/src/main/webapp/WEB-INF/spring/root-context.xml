@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+	http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<!-- HikariCp Config -->
+	<!-- 
+		 - DB에 연결되는 객체를 관리하는 역할 = Connection Pool
+		 - HikariConfig: DB의 접속정보를 설정하는 Class
+		 - HikariDataSource: 접속정보를 이용해서 Connection Pool을 생성하는 Class
+	 -->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+		<constructor-arg ref="hikariConfig" />
+	</bean>
+
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/com" />
+		<property name="username" value="com" />
+		<property name="password" value="com01" />
+	</bean>
+
+	<!-- mybatis SqlSessionFactoryBean -->
+	<!-- 
+		- Mapper 인터페이스를 구현해줄 클래스를 생성하는 역할
+		- mybatis-spring API 내부에 존재 
+	 -->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!-- @Mapper -> Mapper 인터페이스를 메모리에 적재 -->
+	<mybatis-spring:scan base-package="kr.smhrd.mapper" />
+</beans>
