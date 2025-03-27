@@ -21,23 +21,23 @@ public class UserController {
 	TB_UserMapper mapper;
 	
 	@RequestMapping("/login.do")
-	public String goLogin(TB_User user, HttpServletRequest request) {
-		
-		TB_User loginUser = mapper.goLogin(user);
-		
-		request.getSession().setAttribute("loginUser", loginUser);
-		
+	public String goLogin() {
+// 매개변수 TB_User user, HttpServletRequest request	
+//		TB_User loginUser = mapper.goLogin(user);
+//		
+//		request.getSession().setAttribute("loginUser", loginUser);
+//		
 		return "login";
 	}
 	
 	
 	@RequestMapping("/join.do")
-	public String goJoin(TB_User user, Model model) {
+	public String goJoin() {
 		
-		mapper.goJoin(user);
-		model.addAttribute("id",user.getUser_id());
+//		mapper.goJoin(user);
+//		model.addAttribute("id",user.getUser_id());
 		
-		return "login";
+		return "join";
 	}
 	
 	

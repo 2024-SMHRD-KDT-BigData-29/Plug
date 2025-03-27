@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // 로그인 성공 시 plug.html로 이동
+        // 로그인 성공 시 plug.jsp로 이동
         alert('로그인 성공!');
-        window.location.href = 'PLUG.html'; 
+        window.location.href = 'PLUG.jsp'; 
     });
 });
 

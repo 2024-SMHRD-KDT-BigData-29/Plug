@@ -22,7 +22,7 @@
         </header>
 
         <!-- 회원가입 폼 -->
-        <div class="signup-form">
+        <div class="sign0up-form">
             
             <form id="signup-form">
                     <label for="username">아이디</label>

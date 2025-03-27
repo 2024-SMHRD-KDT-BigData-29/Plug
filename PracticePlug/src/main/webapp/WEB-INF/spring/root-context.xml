@@ -14,16 +14,20 @@
 		 - HikariConfig: DB의 접속정보를 설정하는 Class
 		 - HikariDataSource: 접속정보를 이용해서 Connection Pool을 생성하는 Class
 	 -->
+	 
+	 
+	 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="jdbcUrl" value="jdbc:mysql://mp.smhrd.or.kr:3312/mp_24K_bigdata29_p2_4" />
+		<property name="username" value="mp_24K_bigdata29_p2_4" />
+		<property name="password" value="smhrd4" />
+	</bean>
+	 
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
 		<constructor-arg ref="hikariConfig" />
 	</bean>
 
-	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/com" />
-		<property name="username" value="com" />
-		<property name="password" value="com01" />
-	</bean>
+
 
 	<!-- mybatis SqlSessionFactoryBean -->
 	<!-- 
