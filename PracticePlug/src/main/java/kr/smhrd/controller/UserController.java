@@ -29,7 +29,6 @@ public class UserController {
 		request.getSession().setAttribute("loginUser", loginUser);
 
 		return "plug";
-
 	}
 
 
