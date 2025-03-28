@@ -12,9 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const account = document.getElementById('USER_ACCOUNT').value.trim();
         const phone = document.getElementById('USER_PHONE').value.trim();
         const join = document.getElementById('JOINED_AT').value.trim();
-        
+        const birth = document.getElementById('USER_BIRTHDATE').value.trim();
+
         // 모든 필드가 입력되었는지 검증
-        if (!username || !password || !nick || !address || !account || !phone || !join) {
+        if (!username || !password || !nick || !address || !account || !phone || !join || !birth) {
             alert('모든 필드를 입력해주세요!');
             return;
         }
@@ -41,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 회원가입 성공 시 메시지 표시
         alert('회원가입이 완료되었습니다!');
         // 로컬 스토리지에 저장 (나중에 백엔드 연동 시 제거 가능)
-        const user = { username, password, nick, address, account, phone , join};
+        const user = { username, password, nick, address, account, phone , join, birth};
         localStorage.setItem('user_' + username, JSON.stringify(user));
         window.location.href = 'login.html';
     });
