@@ -18,7 +18,7 @@ public class UserController {
 
 	@RequestMapping("/")
 	public String goLogin2() {
-		return "login";
+		return  "login";    
 	}
 
 	@RequestMapping("/login.do")
