@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartRequest;
 
 import kr.smhrd.entity.TB_User;
 import kr.smhrd.mapper.TB_UserMapper;
@@ -18,7 +19,7 @@ public class UserController {
 
 	@RequestMapping("/")
 	public String goLogin2() {
-		return  "login";    
+		return "login";
 	}
 
 	@RequestMapping("/login.do")
@@ -31,13 +32,14 @@ public class UserController {
 		return "plug";
 	}
 
-
 	@RequestMapping("/join.do")
-	public String goJoin2(Model model , TB_User user) {
+	public String goJoin2(Model model, TB_User user, HttpServletRequest request) {
 		
-	mapper.goJoin(user);
+		
+		System.out.println("들어옴");
+		mapper.goJoin(user);
 //	model.addAttribute("id",user.getUser_id());
-	System.out.println(user.getUser_id());
+		System.out.println(user.getUser_id());
 		return "login";
 	}
 
@@ -46,18 +48,17 @@ public class UserController {
 
 		return "join";
 	}
+
 	@RequestMapping("/plug")
 	public String PLUG2() {
-		
-		return "PLUG";
+
+		return "plug";
 	}
 
 	@RequestMapping("/login")
 	public String Login() {
-		
+
 		return "login";
 	}
-	
-	
-	
+
 }

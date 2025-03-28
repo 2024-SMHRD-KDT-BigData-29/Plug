@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 로그인 성공 메시지 및 마이페이지로 이동
         alert('로그인 성공!');
-        window.location.href = 'mypage.html'; // 마이페이지로 이동
+        window.location.href = 'mypage.jsp'; // 마이페이지로 이동
     });
 });

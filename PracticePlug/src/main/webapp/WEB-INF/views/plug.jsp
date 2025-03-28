@@ -14,9 +14,9 @@
         <header class="header">
             <h1 class="logo">Plug</h1>
             <div class="auth-links">
-                <a href="WEB-INF/views/login.jsp">로그인</a>
+                <a href="login">로그인</a>
                 <a href="#">마이페이지</a>
-                <a href="WEB-INF/views/join.jsp">회원가입</a>
+                <a href="join">회원가입</a>
             </div>
         </header>
 

@@ -21,7 +21,6 @@ public class TB_User {
 	private String user_nick;
 	private String user_birthdate;
 	private String user_phone;
-	private String user_address;
-	private Timestamp joined_at; 
+	private String user_addr;
 	
 }
