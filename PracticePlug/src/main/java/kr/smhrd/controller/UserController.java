@@ -22,9 +22,9 @@ public class UserController {
 		return "login";
 	}
 
-	@RequestMapping("/login.do")
+	@RequestMapping("/login2")
 	public String Login(TB_User user, HttpServletRequest request) {
-
+		
 		TB_User loginUser = mapper.goLogin(user);
 
 		request.getSession().setAttribute("loginUser", loginUser);
@@ -32,10 +32,24 @@ public class UserController {
 		return "plug";
 	}
 
-	@RequestMapping("/join.do")
-	public String goJoin2(TB_User user) {
+	@RequestMapping("/join2")
+	public String goJoin2(TB_User user, HttpServletRequest request) {
 
-		System.out.println("들어옴");
+		
+		String user_id = request.getParameter("user_id");
+	    String user_pw = request.getParameter("user_pw");
+	    String user_nick = request.getParameter("user_nick");
+	    String user_birthdate = request.getParameter("user_birthdate");
+	    String user_account = request.getParameter("user_account");
+	    String user_addr = request.getParameter("user_addr");
+	    String user_phone = request.getParameter("user_phone");
+	    
+	    user = new TB_User(user_id,user_pw,user_nick,user_birthdate,user_account,user_addr,user_phone);
+	    
+	    
+	    mapper.goJoin2(user);
+	    
+		
 		// mapper.goJoin(user);
 		//	model.addAttribute("id",user.getUser_id());
 		//System.out.println(user.getUser_id());

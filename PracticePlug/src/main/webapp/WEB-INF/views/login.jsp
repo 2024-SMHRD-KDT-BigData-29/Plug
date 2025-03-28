@@ -27,14 +27,14 @@
         <div class="login-form">
             <h1 class="logo">Plug</h1>
             <h2>개인 간 신뢰할 수 있는 중고 스마트폰 거래 플랫폼</h2>
-            <form action="login.do" method="post" id="login-form">
+            <form action="login2" method="post" id="login-form">
                 <div class="form-group">
                     <label for="user_id">아이디</label>
                     <input type="text" id="user_id" name="user_id" required>
                 </div>
                 <div class="form-group">
                     <label for="user_pw">비밀번호</label>
-                    <input type="user_pw" id="user_pw" name="user_pw" required>
+                    <input type="password" id="user_pw" name="user_pw" required>
                 </div>
                 <button type="submit" value="Login" class="login-btn">로그인</button>
             </form>

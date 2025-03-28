@@ -25,7 +25,7 @@
         <!-- 회원가입 폼 -->
         <div class="signup-form">
             
-            <form action="join.do" method="post" id="signup-form">
+            <form action="join2" method="post" id="signup-form">
                
                 <div class="form-group">
                     <label for="user_id">아이디</label>
