@@ -33,16 +33,35 @@ public class UserController {
 	}
 
 	@RequestMapping("/join.do")
-	public String goJoin2(Model model, TB_User user, HttpServletRequest request) {
-		
-		
+	public String goJoin2(TB_User user) {
+
 		System.out.println("들어옴");
-		mapper.goJoin(user);
-//	model.addAttribute("id",user.getUser_id());
-		System.out.println(user.getUser_id());
+		// mapper.goJoin(user);
+		//	model.addAttribute("id",user.getUser_id());
+		//System.out.println(user.getUser_id());
 		return "login";
 	}
 
+//	@RequestMapping("/join2.do")
+//	public String user_join(TB_user user, Model model, HttpServletRequest request) {
+//		MultipartRequest multi = null;
+//		
+//		try {
+//		
+//			String user_id = multi.getParameter("user_id");
+//		    String user_pw = multi.getParameter("user_pw");
+//		    String user_nick = multi.getParameter("user_nick");
+//
+//		}
+//		catch(Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
+
+	
+	
+	
+	
 	@RequestMapping("/join")
 	public String Join2() {
 

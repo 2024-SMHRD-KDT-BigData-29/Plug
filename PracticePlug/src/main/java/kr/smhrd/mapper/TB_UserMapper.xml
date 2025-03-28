@@ -3,12 +3,13 @@
 
 <mapper namespace="kr.smhrd.mapper.TB_UserMapper">
 
-	<insert id="goJoin" parameterType="kr.smhrd.entity.TB_User">
-		insert into tb_user values(#{user_id},#{user_pw},#{user_nick},#{user_birthdate},#{user_phone},#{user_addr},#{user_account})
+	<insert id="join.do" parameterType="kr.smhrd.entity.TB_User">
+		insert into tb_user (user_id,user_pw,user_nick,user_birthdate,user_phone)
+		values(#{user_id},#{user_pw},#{user_nick},#{user_birthdate},#{user_phone},#{user_addr},#{user_account})
 	</insert>
 
 	<select 
-		id="goLogin" 
+		id="login.do" 
 		parameterType="kr.smhrd.entity.TB_User"
 		resultType="kr.smhrd.entity.TB_User"
 	>
