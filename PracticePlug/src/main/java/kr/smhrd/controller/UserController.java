@@ -24,7 +24,7 @@ public class UserController {
 
 	@RequestMapping("/login2")
 	public String Login(TB_User user, HttpServletRequest request) {
-		
+
 		TB_User loginUser = mapper.goLogin(user);
 
 		request.getSession().setAttribute("loginUser", loginUser);

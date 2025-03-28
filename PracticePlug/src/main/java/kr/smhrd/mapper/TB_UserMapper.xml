@@ -9,7 +9,7 @@
 	</insert>
 
 	<select 
-		id="Login" 
+		id="goLogin" 
 		parameterType="kr.smhrd.entity.TB_User"
 		resultType="kr.smhrd.entity.TB_User"
 	>
