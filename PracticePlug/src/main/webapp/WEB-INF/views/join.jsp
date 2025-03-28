@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                     <label for="user_pw">비밀번호</label>
-                    <input type="text" id="user_pw" name="user_pw" required>
+                    <input type="password" id="user_pw" name="user_pw" required>
                 </div>
                 <div class="form-group">
                     <label for="user_nick">닉네임</label>
