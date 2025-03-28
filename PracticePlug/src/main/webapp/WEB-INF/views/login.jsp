@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -15,9 +17,9 @@
         <header class="header">
             <h1 class="logo">Plug</h1>
             <div class="auth-links">
-                <a href="PLUG.html">로그인</a>
-                <a href="#">마이페이지</a>
-                <a href="join.html">회원가입</a>
+                <a href="PLUG">로그인</a>
+                <a href="mypage.html">마이페이지</a>
+                <a href="join">회원가입</a>
             </div>
         </header>
 
@@ -25,22 +27,20 @@
         <div class="login-form">
             <h1 class="logo">Plug</h1>
             <h2>개인 간 신뢰할 수 있는 중고 스마트폰 거래 플랫폼</h2>
-            <form id="login-form">
+            <form action="login.do" method="post" id="login-form">
                 <div class="form-group">
-                    <label for="username">아이디</label>
-                    <input type="text" id="username" name="username" required>
+                    <label for="user_id">아이디</label>
+                    <input type="text" id="user_id" name="user_id" required>
                 </div>
                 <div class="form-group">
-                    <label for="password">비밀번호</label>
-                    <input type="password" id="password" name="password" required>
+                    <label for="user_pw">비밀번호</label>
+                    <input type="user_pw" id="user_pw" name="user_pw" required>
                 </div>
-                <button type="submit" class="login-btn">로그인</button>
+                <button type="submit" value="Login" class="login-btn">로그인</button>
             </form>
-            <button class="signup-btn" onclick="window.location.href='join.jsp'">회원가입</button>
+            <button class="signup-btn" onclick="window.location.href='join'">회원가입</button>
         </div>
     </div>
     <script src="resources/assets/js/login.js"></script>
 </body>
 </html>
-
-    

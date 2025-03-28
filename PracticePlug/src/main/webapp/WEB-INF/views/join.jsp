@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -15,43 +16,47 @@
         <header class="header">
             <h1 class="logo">Plug</h1>
             <div class="auth-links">
-                <a href="login.html">로그인</a>
+                <a href="login">로그인</a>
                 <a href="#">마이페이지</a>
-                <a href="#">회원가입</a>
+                <a href="join">회원가입</a>
             </div>
         </header>
 
         <!-- 회원가입 폼 -->
-        <div class="sign0up-form">
+        <div class="signup-form">
             
-            <form id="signup-form">
-                    <label for="username">아이디</label>
+            <form action="join.do" method="post" id="signup-form">
+               
+                <div class="form-group">
+                    <label for="user_id">아이디</label>
                     <input type="text" id="user_id" name="user_id" required>
                 </div>
                 <div class="form-group">
-                    <label for="password">비밀번호</label>
-                    <input type="password" id="user_pw" name="user_pw" required>
+                    <label for="user_pw">비밀번호</label>
+                    <input type="text" id="user_pw" name="user_pw" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">닉네임</label>
+                    <label for="user_nick">닉네임</label>
                     <input type="text" id="user_nick" name="user_nick" required>
-                <div class="form-group">
-                <div class="form-group">
-                    <label for="ssn">주민등록번호</label>
-                    <input type="text" id="user_birthdate" name="user_birthdate" placeholder="예: 010123-1234567" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">연락처</label>
-                    <input type="tel" id="user_phone" name="user_phone" placeholder="예: 010-0000-0000" required>
+                    <label for="user_birthdate">생년월일</label>
+                    <input type="text" id="user_birthdate" name="user_birthdate"  required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">계좌번호</label>
-                    <input type="text" id="user_account" name="user_account" required>
+                    <label for="user_addr">주소</label>
+                    <input type="text" id="user_addr" name="user_addr" required>
                 </div>
                 <div class="form-group">
-                    <label for="address">주소</label>
-                    <input type="text" id="user_address" name="user_address" required>
+                    <label for="user_account">사용자 계좌번호</label>
+                    <input type="text" id="user_account" name="user_account"  required>
                 </div>
+                <div class="form-group">
+                    <label for="user_phone">연락처</label>
+                    <input type="text" id="user_phone" name="user_phone"  required>
+                </div>
+
+
                 <button type="submit" class="signup-btn">회원가입하기</button>
             </form>
         </div>
