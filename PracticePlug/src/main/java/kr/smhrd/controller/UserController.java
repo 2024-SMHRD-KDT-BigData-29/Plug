@@ -46,7 +46,9 @@ public class UserController {
 		request.getSession().setAttribute("loginUser", loginUser);
 		System.out.println(loginUser);
 		loginUser = (TB_User)(request.getSession().getAttribute("loginUser"));
-
+		if (loginUser==null) {
+			return "redirect:/login";
+		}
 		return "plug";
 	}
 
