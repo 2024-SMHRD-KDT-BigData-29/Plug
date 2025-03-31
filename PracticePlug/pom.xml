@@ -14,12 +14,19 @@
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 		
-    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    	<project.build.sourceEncoding>euc-kr</project.build.sourceEncoding>
+    	<project.reporting.outputEncoding>euc-kr</project.reporting.outputEncoding>
 
 	</properties>
 	<dependencies>
 
+		<dependency>
+		    <groupId>org.apache.tomcat</groupId>
+		    <artifactId>tomcat-servlet-api</artifactId>
+		    <version>9.0.56</version>
+		    <scope>provided</scope>
+		</dependency>
+		
 		<!-- 채팅라이브러리 (1) -->
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-websocket -->
 		<dependency>
@@ -46,12 +53,6 @@
 		</dependency>
 		
 	
-		<dependency>
-		    <groupId>org.apache.tomcat</groupId>
-		    <artifactId>tomcat-servlet-api</artifactId>
-		    <version>9.0.56</version>
-		    <scope>provided</scope>
-		</dependency>
 		
 		
 		

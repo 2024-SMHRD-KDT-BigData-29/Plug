@@ -24,19 +24,12 @@ public class UserController {
 	public String goLogin2() {
 		return "login";
 	}
-	@RequestMapping("/mypage")
-	public String goMypage2() {
-		return "mypage";
-	}
+
 	@RequestMapping("/board")
 	public String goboard() {
 		return "board";
 	}
-	@RequestMapping("/profiles")
-	public String goProfile() {
-		
-		return "redirect:/mypage";
-	}
+
 
 	@RequestMapping("/login2")
 	public String Login(TB_User user, HttpServletRequest request) {
@@ -56,16 +49,16 @@ public class UserController {
 	public String goJoin2(TB_User user, HttpServletRequest request) {
 
 		
-		String user_id = request.getParameter("user_id");
-	    String user_pw = request.getParameter("user_pw");
-	    String user_nick = request.getParameter("user_nick");
-	    String user_birthdate = request.getParameter("user_birthdate");
-	    String user_account = request.getParameter("user_account");
-	    String user_addr = request.getParameter("user_addr");
-	    String user_phone = request.getParameter("user_phone");
-	    
-	    user = new TB_User(user_id,user_pw,user_nick,user_birthdate,user_account,user_addr,user_phone);
-	    
+//		String user_id = request.getParameter("user_id");
+//	    String user_pw = request.getParameter("user_pw");
+//	    String user_nick = request.getParameter("user_nick");
+//	    String user_birthdate = request.getParameter("user_birthdate");
+//	    String user_account = request.getParameter("user_account");
+//	    String user_addr = request.getParameter("user_addr");
+//	    String user_phone = request.getParameter("user_phone");
+//	    
+//	    user = new TB_User(user_id,user_pw,user_nick,user_birthdate,user_account,user_addr,user_phone);
+//	    
 	    
 	    mapper.goJoin2(user);
 	    
