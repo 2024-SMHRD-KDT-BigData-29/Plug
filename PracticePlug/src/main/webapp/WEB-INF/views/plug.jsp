@@ -43,7 +43,7 @@
                 <h3>Apple 아이폰15 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
-                <button class="view-btn" data-href="iphone15pro.html">구매하기</button>
+                <button class="view-btn" data-href="iphone15pro">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone15">
@@ -51,7 +51,7 @@
                 <h3>Apple 아이폰15</h3>
                 <p>128GB</p>
                 <p class="price">1,250,000원</p>
-                <button class="view-btn" data-href="iphone15.html">구매하기</button>
+                <button class="view-btn" data-href="iphone15">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone15promax">
@@ -59,7 +59,7 @@
                 <h3>Apple 아이폰15 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,900,000원</p>
-                <button class="view-btn" data-href="iphone15promax.html">구매하기</button>
+                <button class="view-btn" data-href="iphone15promax">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone15plus">
@@ -67,7 +67,7 @@
                 <h3>Apple 아이폰15 플러스</h3>
                 <p>128GB</p>
                 <p class="price">1,500,000원</p>
-                <button class="view-btn" data-href="iphone15plus.html">구매하기</button>
+                <button class="view-btn" data-href="iphone15plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone14pro">
@@ -75,7 +75,7 @@
                 <h3>Apple 아이폰14 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
-                <button class="view-btn" data-href="iphone14pro.html">구매하기</button>
+                <button class="view-btn" data-href="iphone14pro">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone14promax">
@@ -83,7 +83,7 @@
                 <h3>Apple 아이폰14 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,800,000원</p>
-                <button class="view-btn" data-href="iphone14promax.html">구매하기</button>
+                <button class="view-btn" data-href="iphone14promax">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone14plus">
@@ -91,7 +91,7 @@
                 <h3>Apple 아이폰14 플러스</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
-                <button class="view-btn" data-href="iphone14plus.html">구매하기</button>
+                <button class="view-btn" data-href="iphone14plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone14">
@@ -99,7 +99,7 @@
                 <h3>Apple 아이폰14 </h3>
                 <p>128GB</p>
                 <p class="price">1,000,000원</p>
-                <button class="view-btn" data-href="iphone14.html">구매하기</button>
+                <button class="view-btn" data-href="iphone14">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone13promax">
@@ -107,7 +107,7 @@
                 <h3>Apple 아이폰13 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,900,000원</p>
-                <button class="view-btn" data-href="iphone13promax.html">구매하기</button>
+                <button class="view-btn" data-href="iphone13promax">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone13pro">
@@ -115,7 +115,7 @@
                 <h3>Apple 아이폰13 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
-                <button class="view-btn" data-href="iphone13pro.html">구매하기</button>
+                <button class="view-btn" data-href="iphone13pro">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone13">
@@ -123,7 +123,7 @@
                 <h3>Apple 아이폰13 </h3>
                 <p>128GB</p>
                 <p class="price">1,090,000원</p>
-                <button class="view-btn" data-href="iphone13.html">구매하기</button>
+                <button class="view-btn" data-href="iphone13">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone13mini">
@@ -131,7 +131,7 @@
                 <h3>Apple 아이폰13 미니</h3>
                 <p>128GB</p>
                 <p class="price">950,000원</p>
-                <button class="view-btn" data-href="iphone13mini.html">구매하기</button>
+                <button class="view-btn" data-href="iphone13mini">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone12promax">
@@ -139,7 +139,7 @@
                 <h3>Apple 아이폰12 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,490,000원</p>
-                <button class="view-btn" data-href="iphone12promax.html">구매하기</button>
+                <button class="view-btn" data-href="iphone12promax">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone12pro">
@@ -147,7 +147,7 @@
                 <h3>Apple 아이폰12 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
-                <button class="view-btn" data-href="iphone12pro.html">구매하기</button>
+                <button class="view-btn" data-href="iphone12pro">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone12">
@@ -155,7 +155,7 @@
                 <h3>Apple 아이폰12</h3>
                 <p>128GB</p>
                 <p class="price">1,090,000원</p>
-                <button class="view-btn" data-href="iphone12.html">구매하기</button>
+                <button class="view-btn" data-href="iphone12">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone12mini">
@@ -163,7 +163,7 @@
                 <h3>Apple 아이폰12 미니</h3>
                 <p>128GB</p>
                 <p class="price">950,000원</p>
-                <button class="view-btn" data-href="iphone12mini.html">구매하기</button>
+                <button class="view-btn" data-href="iphone12mini">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone11promax">
@@ -171,7 +171,7 @@
                 <h3>Apple 아이폰11 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
-                <button class="view-btn" data-href="iphone11promax.html">구매하기</button>
+                <button class="view-btn" data-href="iphone11promax">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone11pro">
@@ -179,7 +179,7 @@
                 <h3>Apple 아이폰11 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,390,000원</p>
-                <button class="view-btn" data-href="iphone11pro.html">구매하기</button>
+                <button class="view-btn" data-href="iphone11pro">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphone11">
@@ -187,7 +187,7 @@
                 <h3>Apple 아이폰11</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
-                <button class="view-btn" data-href="iphone11.html">구매하기</button>
+                <button class="view-btn" data-href="iphone11">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphonese3">
@@ -195,7 +195,7 @@
                 <h3>Apple 아이폰SE3</h3>
                 <p>128GB</p>
                 <p class="price">650,000원</p>
-                <button class="view-btn" data-href="iphonese3.html">구매하기</button>
+                <button class="view-btn" data-href="iphonese3">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphonese2">
@@ -203,7 +203,7 @@
                 <h3>Apple 아이폰SE2</h3>
                 <p>128GB</p>
                 <p class="price">620,000원</p>
-                <button class="view-btn" data-href="iphonese2.html">구매하기</button>
+                <button class="view-btn" data-href="iphonese2">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphonexr">
@@ -211,7 +211,7 @@
                 <h3>Apple 아이폰XR</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
-                <button class="view-btn" data-href="iphonexr.html">구매하기</button>
+                <button class="view-btn" data-href="iphonexr">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphonex">
@@ -219,7 +219,7 @@
                 <h3>Apple 아이폰X</h3>
                 <p>128GB</p>
                 <p class="price">1,360,700원</p>
-                <button class="view-btn" data-href="iphonex.html">구매하기</button>
+                <button class="view-btn" data-href="iphonex">구매하기</button>
             </div>
 
             <div class="product-card" data-id="iphonexs">
@@ -227,7 +227,7 @@
                 <h3>Apple 아이폰XS</h3>
                 <p>128GB</p>
                 <p class="price">1,580,000원</p>
-                <button class="view-btn" data-href="iphonexs.html">구매하기</button>
+                <button class="view-btn" data-href="iphonexs">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy25ultra">
@@ -235,7 +235,7 @@
                 <h3>SAMSUNG 갤럭시 S25 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,850,000원</p>
-                <button class="view-btn" data-href="galaxy25ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy25ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy25plus">
@@ -243,7 +243,7 @@
                 <h3>SAMSUNG 갤럭시 S25 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,700,000원</p>
-                <button class="view-btn" data-href="galaxy25plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy25plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy25">
@@ -251,7 +251,7 @@
                 <h3>SAMSUNG 갤럭시 S25</h3>
                 <p>128GB</p>
                 <p class="price">1,600,000원</p>
-                <button class="view-btn" data-href="galaxy25.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy25">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy24ultra">
@@ -259,7 +259,7 @@
                 <h3>SAMSUNG 갤럭시 S24 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,452,000원</p>
-                <button class="view-btn" data-href="galaxy24ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy24ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy24plus">
@@ -267,7 +267,7 @@
                 <h3>SAMSUNG 갤럭시 S24 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,352,000원</p>
-                <button class="view-btn" data-href="galaxy24plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy24plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy24">
@@ -275,7 +275,7 @@
                 <h3>SAMSUNG 갤럭시 S24 </h3>
                 <p>128GB</p>
                 <p class="price">1,115,000원</p>
-                <button class="view-btn" data-href="galaxy24.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy24">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy23ultra">
@@ -283,7 +283,7 @@
                 <h3>SAMSUNG 갤럭시 S23 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,599,000원</p>
-                <button class="view-btn" data-href="galaxy23ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy23ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy23plus">
@@ -291,7 +291,7 @@
                 <h3>SAMSUNG 갤럭시 S23 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,353,000원</p>
-                <button class="view-btn" data-href="galaxy23plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy23plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy23">
@@ -299,7 +299,7 @@
                 <h3>SAMSUNG 갤럭시 S23</h3>
                 <p>128GB</p>
                 <p class="price">1,144,000원</p>
-                <button class="view-btn" data-href="galaxy23.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy23">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy23ultra">
@@ -307,7 +307,7 @@
                 <h3>SAMSUNG 갤럭시 S22 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,459,000원</p>
-                <button class="view-btn" data-href="galaxy22ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy22ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy22plus">
@@ -315,7 +315,7 @@
                 <h3>SAMSUNG 갤럭시 S22 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
-                <button class="view-btn" data-href="galaxy22plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy22plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy22">
@@ -323,7 +323,7 @@
                 <h3>SAMSUNG 갤럭시 S22</h3>
                 <p>128GB</p>
                 <p class="price">999,000원</p>
-                <button class="view-btn" data-href="galaxy22.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy22">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy21ultra">
@@ -331,7 +331,7 @@
                 <h3>SAMSUNG 갤럭시 S21 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,139,000원</p>
-                <button class="view-btn" data-href="galaxy21ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy21ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy21plus">
@@ -339,7 +339,7 @@
                 <h3>SAMSUNG 갤럭시 S21 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
-                <button class="view-btn" data-href="galaxy21plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy21plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy21">
@@ -347,7 +347,7 @@
                 <h3>SAMSUNG 갤럭시 S21</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
-                <button class="view-btn" data-href="galaxy21.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy21">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy20ultra">
@@ -355,7 +355,7 @@
                 <h3>SAMSUNG 갤럭시 S20 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,593,000원</p>
-                <button class="view-btn" data-href="galaxy20ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy20ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy20plus">
@@ -363,7 +363,7 @@
                 <h3>SAMSUNG 갤럭시 S20 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,353,000원</p>
-                <button class="view-btn" data-href="galaxy20plus.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy20plus">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxy20">
@@ -371,7 +371,7 @@
                 <h3>SAMSUNG 갤럭시 S20</h3>
                 <p>128GB</p>
                 <p class="price">995,500원</p>
-                <button class="view-btn" data-href="galaxy20.html">구매하기</button>
+                <button class="view-btn" data-href="galaxy20">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyflip5">
@@ -379,7 +379,7 @@
                 <h3>SAMSUNG 갤럭시 Z Flip 5</h3>
                 <p>128GB</p>
                 <p class="price">1,399,200원</p>
-                <button class="view-btn" data-href="galaxyzflip5.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzflip5">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyflip4">
@@ -387,7 +387,7 @@
                 <h3>SAMSUNG 갤럭시 Z Flip 4</h3>
                 <p>128GB</p>
                 <p class="price">1,353,200원</p>
-                <button class="view-btn" data-href="galaxyzflip4.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzflip4">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyflip3">
@@ -395,7 +395,7 @@
                 <h3>SAMSUNG 갤럭시 Z Flip 3</h3>
                 <p>128GB</p>
                 <p class="price">1,254,000원</p>
-                <button class="view-btn" data-href="galaxyzflip3.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzflip3">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyflip">
@@ -403,7 +403,7 @@
                 <h3>SAMSUNG 갤럭시 Z Flip </h3>
                 <p>128GB</p>
                 <p class="price">169,200원</p>
-                <button class="view-btn" data-href="galaxyzflip.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzflip">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyfold5">
@@ -411,7 +411,7 @@
                 <h3>SAMSUNG 갤럭시 Z Fold 5</h3>
                 <p>128GB</p>
                 <p class="price">2,097,700원</p>
-                <button class="view-btn" data-href="galaxyzfold5.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzfold5">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyfold4">
@@ -419,7 +419,7 @@
                 <h3>SAMSUNG 갤럭시 Z Fold 4</h3>
                 <p>128GB</p>
                 <p class="price">1,998,700원</p>
-                <button class="view-btn" data-href="galaxyzfold4.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzfold4">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyfold3">
@@ -427,7 +427,7 @@
                 <h3>SAMSUNG 갤럭시 Z Fold 3</h3>
                 <p>128GB</p>
                 <p class="price">1,998,700원</p>
-                <button class="view-btn" data-href="galaxyzfold3.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzfold3">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyfold2">
@@ -435,7 +435,7 @@
                 <h3>SAMSUNG 갤럭시 Z Fold 2</h3>
                 <p>128GB</p>
                 <p class="price">1,808,700원</p>
-                <button class="view-btn" data-href="galaxyzfold2.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzfold2">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxyfold1">
@@ -443,7 +443,7 @@
                 <h3>SAMSUNG 갤럭시 Z Fold 1</h3>
                 <p>128GB</p>
                 <p class="price">950,700원</p>
-                <button class="view-btn" data-href="galaxyzfold1.html">구매하기</button>
+                <button class="view-btn" data-href="galaxyzfold1">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxynote20ultra">
@@ -451,7 +451,7 @@
                 <h3>SAMSUNG 갤럭시 Note20 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,452,000원</p>
-                <button class="view-btn" data-href="galaxynote20ultra.html">구매하기</button>
+                <button class="view-btn" data-href="galaxynote20ultra">구매하기</button>
             </div>
 
             <div class="product-card" data-id="galaxynote20">
@@ -459,10 +459,10 @@
                 <h3>SAMSUNG 갤럭시 Note 20</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
-                <button class="view-btn" data-href="galaxynote20.html">구매하기</button>
+                <button class="view-btn" data-href="galaxynote20">구매하기</button>
             </div>
         </div>
     </div>
-    <script src="resources/assets/css/PLUG.css"></script>
+    <script src="resources/assets/css/PLUG.css"></script >
 </body>
 </html>
