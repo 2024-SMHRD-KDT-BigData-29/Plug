@@ -5,9 +5,11 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartRequest;
 
 import kr.smhrd.entity.TB_User;
@@ -98,6 +100,19 @@ public class UserController {
 //		
 //		return "redirect:/mypage";
 //	
+//	@RequestMapping("/mypage/getUserInfo.do")
+//	@ResponseBody
+//	public ResponseEntity<TB_User> getUserInfo(HttpServletRequest request) {
+//	    TB_User loginUser = (TB_User) request.getSession().getAttribute("loginUser");
+//	    System.out.println("getUserInfo 호출, 세션 사용자: " + loginUser);
+//	    if (loginUser == null) {
+//	        return ResponseEntity.status(401).body(null);
+//	    }
+//	    return ResponseEntity.ok(loginUser);
+//	}
+	
+	
+	
 	
 	
 	

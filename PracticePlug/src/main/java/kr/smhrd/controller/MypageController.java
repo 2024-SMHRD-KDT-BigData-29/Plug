@@ -33,19 +33,19 @@ public class MypageController {
 	public String updateUserInfo() {
 		return "redirect:/mypage";
 	}
-	@RequestMapping("/getUserInfo.do")
-    @ResponseBody // JSON 응답을 위해 필요
-    public ResponseEntity<TB_User> getUserInfo(HttpServletRequest request) {
-        HttpSession session = request.getSession();
-        TB_User loginUser = (TB_User) session.getAttribute("loginUser");
-
-        if (loginUser == null) {
-            return ResponseEntity.status(401).body(null); // 세션이 없으면 401 반환
-        }
-        System.out.println("연결 성공"+loginUser);
-
-        return ResponseEntity.ok(loginUser); // 로그인된 사용자 정보 반환
-    }
+//	@RequestMapping("/getUserInfo.do")
+//    @ResponseBody // JSON 응답을 위해 필요
+//    public ResponseEntity<TB_User> getUserInfo(HttpServletRequest request) {
+//        HttpSession session = request.getSession();
+//        TB_User loginUser = (TB_User) session.getAttribute("loginUser");
+//
+//        if (loginUser == null) {
+//            return ResponseEntity.status(401).body(null); // 세션이 없으면 401 반환
+//        }
+//        System.out.println("연결 성공"+loginUser);
+//
+//        return ResponseEntity.ok(loginUser); // 로그인된 사용자 정보 반환
+//    }
 
 //	@RequestMapping("/login2")
 //	public String Login(TB_User user, HttpServletRequest request) {

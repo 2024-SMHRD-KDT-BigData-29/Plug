@@ -150,6 +150,70 @@
             </section>
         </div>
     </div>
+     <script>
+        const userData = {
+            user_id: "${loginUser.user_id}",
+            user_nick: "${loginUser.user_nick}",
+            user_birthdate: "${loginUser.user_birthdate}",
+            user_phone: "${loginUser.user_phone}",
+            user_addr: "${loginUser.user_addr}",
+            user_account: "${loginUser.user_account}"
+            
+        };
+        console.log("JSP에서 전달된 userData:", userData);
+        // 거래중인 상품 목록
+        const tradingItems = [
+            <c:forEach var="item" items="${tradingItems}" varStatus="loop">
+                {
+                    phone_idx: ${item.phone_idx},
+                    phone_mag1: "${item.phone_mag1 != null ? item.phone_mag1 : 'images/default-phone.jpg'}",
+                    brand: "${item.brand}",
+                    model: "${item.model}",
+                    capacity: "${item.capacity}",
+                    color: "${item.color}",
+                    quality: "${item.quality}",
+                    price: ${item.price},
+                    created_at: "${item.created_at}"
+                }${!loop.last ? ',' : ''}
+            </c:forEach>
+        ];
+        console.log("JSP에서 전달된 tradingItems:", tradingItems);
+
+        // 찜 목록
+        const wishlist = [
+            <c:forEach var="item" items="${wishlist}" varStatus="loop">
+                {
+                    phone_idx: ${item.phone_idx},
+                    phone_mag1: "${item.phone_mag1 != null ? item.phone_mag1 : 'https://via.placeholder.com/150'}",
+                    brand: "${item.brand}",
+                    model: "${item.model}",
+                    capacity: "${item.capacity}",
+                    price: ${item.price}
+                }${!loop.last ? ',' : ''}
+            </c:forEach>
+        ];
+        console.log("JSP에서 전달된 wishlist:", wishlist);
+
+        // 거래완료 상품 목록
+        const completedItems = [
+            <c:forEach var="item" items="${completedItems}" varStatus="loop">
+                {
+                    phone_idx: ${item.phone_idx},
+                    phone_mag1: "${item.phone_mag1 != null ? item.phone_mag1 : 'images/default-phone.jpg'}",
+                    brand: "${item.brand}",
+                    model: "${item.model}",
+                    capacity: "${item.capacity}",
+                    color: "${item.color}",
+                    quality: "${item.quality}",
+                    price: ${item.price},
+                    created_at: "${item.created_at}"
+                }${!loop.last ? ',' : ''}
+            </c:forEach>
+        ];
+        console.log("JSP에서 전달된 completedItems:", completedItems);
+    </script>
+    
+    
     <script src="resources/assets/js/mypage.js"></script>
 </body>
 </html>
