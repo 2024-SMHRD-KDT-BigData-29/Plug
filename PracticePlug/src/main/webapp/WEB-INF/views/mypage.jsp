@@ -40,7 +40,7 @@
                     <br>
                     <button id="change-profile-btn">프로필 사진 변경하기</button>
                 </div>
-                <form id="profile-form" action="profiles" >
+                <form id="profile-form" action="updateUser" method="post">
                     <div class="info-item">
                         <label>아이디</label>
                         <input type="text" id="user_id" readonly>
@@ -70,11 +70,6 @@
                         <label>계좌번호</label>
                         <input type="text" id="user_account">
                     </div>
-                    <div class="info-item">
-                        <label>가입날짜</label>
-                        <input type="text" id="joined_at">
-                    </div>
-
 
                     <button type="submit" class="save-btn">저장하기</button>
                 </form>
