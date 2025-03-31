@@ -1,5 +1,7 @@
 package kr.smhrd.controller;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import org.springframework.web.multipart.MultipartRequest;
 import kr.smhrd.entity.TB_User;
 import kr.smhrd.mapper.TB_UserMapper;
 
+
 @Controller
 public class UserController {
 
@@ -21,13 +24,28 @@ public class UserController {
 	public String goLogin2() {
 		return "login";
 	}
+	@RequestMapping("/mypage")
+	public String goMypage2() {
+		return "mypage";
+	}
+	@RequestMapping("/board")
+	public String goboard() {
+		return "board";
+	}
+	@RequestMapping("/profiles")
+	public String goProfile() {
+		
+		return "redirect:/mypage";
+	}
 
 	@RequestMapping("/login2")
 	public String Login(TB_User user, HttpServletRequest request) {
 
 		TB_User loginUser = mapper.goLogin(user);
-
+		
 		request.getSession().setAttribute("loginUser", loginUser);
+		System.out.println(loginUser);
+		loginUser = (TB_User)(request.getSession().getAttribute("loginUser"));
 
 		return "plug";
 	}
@@ -72,7 +90,19 @@ public class UserController {
 //		}
 //	}
 
-	
+//	@RequestMapping("/messageShow.do")
+//	public String messageShow(HttpServletRequest request, Model model) {
+//		System.out.println("메시지 조회 요청...");
+//		
+//		TB_User user = (TB_User)(request.getSession().getAttribute("loginUser"));
+//		
+//		if(user != null) {
+//			List<Message> list = mapper.messageShow(user.getProfile());
+//			model.addAttribute("msgList",list);
+//		}
+//		
+//		return "redirect:/mypage";
+//	
 	
 	
 	

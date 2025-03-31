@@ -15,7 +15,7 @@
             <h1 class="logo">Plug</h1>
             <div class="auth-links">
                 <a href="login">로그인</a>
-                <a href="#">마이페이지</a>
+                <a href="mypage">마이페이지</a>
                 <a href="join">회원가입</a>
             </div>
         </header>
