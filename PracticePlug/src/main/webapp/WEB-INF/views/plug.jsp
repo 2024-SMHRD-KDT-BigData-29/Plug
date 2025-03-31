@@ -463,6 +463,6 @@
             </div>
         </div>
     </div>
-    <script src="resources/assets/css/PLUG.css"></script>
+    <script src="resources/assets/css/PLUG.css"></script >
 </body>
 </html>
