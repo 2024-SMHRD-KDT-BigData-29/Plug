@@ -12,7 +12,8 @@
 		id="updateUserInfo" 
 		parameterType="kr.smhrd.entity.TB_User"
 	>
-		update user set user_pw=#{user_pw}, user_phone=#{user_phone}, user_addr=#{user_addr}, user_account=#{user_account} 
+		update tb_user set user_pw=#{user_pw}, user_phone=#{user_phone}, user_addr=#{user_addr}, user_account=#{user_account}, user_phone=#{user_phone}, user_nick=#{user_nick}
+		where user_id = #{user_id} 
 
 	</update>
 
