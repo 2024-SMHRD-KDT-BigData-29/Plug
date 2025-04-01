@@ -38,7 +38,7 @@
         <div class="product-list">
             <!-- 제품 카드 -->
             <div class="product-card" data-id="iphone15pro">
-                <img src="images/iphone15pro.png" alt="아이폰 15 프로">
+                <img src="resources/assets/images/iphone15pro.png" alt="아이폰 15 프로">
                 <h3>Apple 아이폰15 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="product-card" data-id="iphone15">
-                <img src="images/iphone15.png" alt="아이폰 15">
+                <img src="resources/assets/images/iphone15.png" alt="아이폰 15">
                 <h3>Apple 아이폰15</h3>
                 <p>128GB</p>
                 <p class="price">1,250,000원</p>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="product-card" data-id="iphone15promax">
-                <img src="images/iphone15promax.png" alt="아이폰 15 프로맥스">
+                <img src="resources/assets/images/iphone15promax.png" alt="아이폰 15 프로맥스">
                 <h3>Apple 아이폰15 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,900,000원</p>
@@ -62,7 +62,7 @@
             </div>
 
             <div class="product-card" data-id="iphone15plus">
-                <img src="images/iphone15plus.png" alt="아이폰 15 플러스">
+                <img src="resources/assets/images/iphone15plus.png" alt="아이폰 15 플러스">
                 <h3>Apple 아이폰15 플러스</h3>
                 <p>128GB</p>
                 <p class="price">1,500,000원</p>
@@ -70,7 +70,7 @@
             </div>
 
             <div class="product-card" data-id="iphone14pro">
-                <img src="images/iphone14pro.png" alt="아이폰 14 프로">
+                <img src="resources/assets/images/iphone14pro.png" alt="아이폰 14 프로">
                 <h3>Apple 아이폰14 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="product-card" data-id="iphone14promax">
-                <img src="images/iphone14promax.png" alt="아이폰 14프로맥스">
+                <img src="resources/assets/images/iphone14promax.png" alt="아이폰 14프로맥스">
                 <h3>Apple 아이폰14 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,800,000원</p>
@@ -86,7 +86,7 @@
             </div>
 
             <div class="product-card" data-id="iphone14plus">
-                <img src="images/iphone14plus.png" alt="아이폰 14플러스">
+                <img src="resources/assets/images/iphone14plus.png" alt="아이폰 14플러스">
                 <h3>Apple 아이폰14 플러스</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
@@ -94,7 +94,7 @@
             </div>
 
             <div class="product-card" data-id="iphone14">
-                <img src="images/iphone14.png" alt="아이폰 14">
+                <img src="resources/assets/images/iphone14.png" alt="아이폰 14">
                 <h3>Apple 아이폰14 </h3>
                 <p>128GB</p>
                 <p class="price">1,000,000원</p>
@@ -102,7 +102,7 @@
             </div>
 
             <div class="product-card" data-id="iphone13promax">
-                <img src="images/iphone13promax.png" alt="아이폰 13프로맥스">
+                <img src="resources/assets/images/iphone13promax.png" alt="아이폰 13프로맥스">
                 <h3>Apple 아이폰13 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,900,000원</p>
@@ -110,7 +110,7 @@
             </div>
 
             <div class="product-card" data-id="iphone13pro">
-                <img src="images/iphone13pro.png" alt="아이폰 13프로">
+                <img src="resources/assets/images/iphone13pro.png" alt="아이폰 13프로">
                 <h3>Apple 아이폰13 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
@@ -118,7 +118,7 @@
             </div>
 
             <div class="product-card" data-id="iphone13">
-                <img src="images/iphone13.png" alt="아이폰 13">
+                <img src="resources/assets/images/iphone13.png" alt="아이폰 13">
                 <h3>Apple 아이폰13 </h3>
                 <p>128GB</p>
                 <p class="price">1,090,000원</p>
@@ -126,7 +126,7 @@
             </div>
 
             <div class="product-card" data-id="iphone13mini">
-                <img src="images/iphone13mini.png" alt="아이폰 13미니">
+                <img src="resources/assets/images/iphone13mini.png" alt="아이폰 13미니">
                 <h3>Apple 아이폰13 미니</h3>
                 <p>128GB</p>
                 <p class="price">950,000원</p>
@@ -134,7 +134,7 @@
             </div>
 
             <div class="product-card" data-id="iphone12promax">
-                <img src="images/iphone12promax.jpg" alt="아이폰 12프로맥스">
+                <img src="resources/assets/images/iphone12promax.jpg" alt="아이폰 12프로맥스">
                 <h3>Apple 아이폰12 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,490,000원</p>
@@ -142,7 +142,7 @@
             </div>
 
             <div class="product-card" data-id="iphone12pro">
-                <img src="images/iphone12pro.jpg" alt="아이폰 12프로">
+                <img src="resources/assets/images/iphone12pro.jpg" alt="아이폰 12프로">
                 <h3>Apple 아이폰12 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,350,000원</p>
@@ -150,7 +150,7 @@
             </div>
 
             <div class="product-card" data-id="iphone12">
-                <img src="images/iphone12.png" alt="아이폰 12">
+                <img src="resources/assets/images/iphone12.png" alt="아이폰 12">
                 <h3>Apple 아이폰12</h3>
                 <p>128GB</p>
                 <p class="price">1,090,000원</p>
@@ -158,7 +158,7 @@
             </div>
 
             <div class="product-card" data-id="iphone12mini">
-                <img src="images/iphone12mini.png" alt="아이폰 12미니">
+                <img src="resources/assets/images/iphone12mini.png" alt="아이폰 12미니">
                 <h3>Apple 아이폰12 미니</h3>
                 <p>128GB</p>
                 <p class="price">950,000원</p>
@@ -166,7 +166,7 @@
             </div>
 
             <div class="product-card" data-id="iphone11promax">
-                <img src="images/iphone11promax.jpg" alt="아이폰 11프로맥스">
+                <img src="resources/assets/images/iphone11promax.jpg" alt="아이폰 11프로맥스">
                 <h3>Apple 아이폰11 프로맥스</h3>
                 <p>128GB</p>
                 <p class="price">1,550,000원</p>
@@ -174,7 +174,7 @@
             </div>
 
             <div class="product-card" data-id="iphone11pro">
-                <img src="images/iphone11pro.jpg" alt="아이폰 11프로">
+                <img src="resources/assets/images/iphone11pro.jpg" alt="아이폰 11프로">
                 <h3>Apple 아이폰11 프로</h3>
                 <p>128GB</p>
                 <p class="price">1,390,000원</p>
@@ -182,7 +182,7 @@
             </div>
 
             <div class="product-card" data-id="iphone11">
-                <img src="images/iphone11.jpg" alt="아이폰 11">
+                <img src="resources/assets/images/iphone11.jpg" alt="아이폰 11">
                 <h3>Apple 아이폰11</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
@@ -190,7 +190,7 @@
             </div>
 
             <div class="product-card" data-id="iphonese3">
-                <img src="images/iphonse3.png" alt="아이폰 SE3">
+                <img src="resources/assets/images/iphonse3.png" alt="아이폰 SE3">
                 <h3>Apple 아이폰SE3</h3>
                 <p>128GB</p>
                 <p class="price">650,000원</p>
@@ -198,7 +198,7 @@
             </div>
 
             <div class="product-card" data-id="iphonese2">
-                <img src="images/iphonese2.jpg" alt="아이폰 SE2">
+                <img src="resources/assets/images/iphonese2.jpg" alt="아이폰 SE2">
                 <h3>Apple 아이폰SE2</h3>
                 <p>128GB</p>
                 <p class="price">620,000원</p>
@@ -206,7 +206,7 @@
             </div>
 
             <div class="product-card" data-id="iphonexr">
-                <img src="images/iphonexr.jpg" alt="아이폰 XR">
+                <img src="resources/assets/images/iphonexr.jpg" alt="아이폰 XR">
                 <h3>Apple 아이폰XR</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
@@ -214,7 +214,7 @@
             </div>
 
             <div class="product-card" data-id="iphonex">
-                <img src="images/iphonex.jpg" alt="아이폰 X">
+                <img src="resources/assets/images/iphonex.jpg" alt="아이폰 X">
                 <h3>Apple 아이폰X</h3>
                 <p>128GB</p>
                 <p class="price">1,360,700원</p>
@@ -222,7 +222,7 @@
             </div>
 
             <div class="product-card" data-id="iphonexs">
-                <img src="images/iphonexs.jpg" alt="아이폰 XS">
+                <img src="resources/assets/images/iphonexs.jpg" alt="아이폰 XS">
                 <h3>Apple 아이폰XS</h3>
                 <p>128GB</p>
                 <p class="price">1,580,000원</p>
@@ -230,7 +230,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy25ultra">
-                <img src="images/galaxy25ultra2.jpg" alt="갤럭시 S25 ultra">
+                <img src="resources/assets/images/galaxy25ultra2.jpg" alt="갤럭시 S25 ultra">
                 <h3>SAMSUNG 갤럭시 S25 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,850,000원</p>
@@ -238,7 +238,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy25plus">
-                <img src="images/galaxy25plus.jpg" alt="갤럭시 S25 plus">
+                <img src="resources/assets/images/galaxy25plus.jpg" alt="갤럭시 S25 plus">
                 <h3>SAMSUNG 갤럭시 S25 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,700,000원</p>
@@ -246,7 +246,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy25">
-                <img src="images/galaxyre.jpg" alt="갤럭시 S25 ">
+                <img src="resources/assets/images/galaxyre.jpg" alt="갤럭시 S25 ">
                 <h3>SAMSUNG 갤럭시 S25</h3>
                 <p>128GB</p>
                 <p class="price">1,600,000원</p>
@@ -254,7 +254,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy24ultra">
-                <img src="images/galaxy24ultra.jpg" alt="갤럭시 S24 ultra">
+                <img src="resources/assets/images/galaxy24ultra.jpg" alt="갤럭시 S24 ultra">
                 <h3>SAMSUNG 갤럭시 S24 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,452,000원</p>
@@ -262,7 +262,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy24plus">
-                <img src="images/galaxy24plus.jpg" alt="갤럭시 S24 plus">
+                <img src="resources/assets/images/galaxy24plus.jpg" alt="갤럭시 S24 plus">
                 <h3>SAMSUNG 갤럭시 S24 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,352,000원</p>
@@ -270,7 +270,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy24">
-                <img src="images/re3.jpg" alt="갤럭시 S24">
+                <img src="resources/assets/images/re3.jpg" alt="갤럭시 S24">
                 <h3>SAMSUNG 갤럭시 S24 </h3>
                 <p>128GB</p>
                 <p class="price">1,115,000원</p>
@@ -278,7 +278,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy23ultra">
-                <img src="images/galaxy23ultra.jpg" alt="갤럭시 S23 ultra">
+                <img src="resources/assets/images/galaxy23ultra.jpg" alt="갤럭시 S23 ultra">
                 <h3>SAMSUNG 갤럭시 S23 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,599,000원</p>
@@ -286,7 +286,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy23plus">
-                <img src="images/galaxy23plus.jpg" alt="갤럭시 S23 plus">
+                <img src="resources/assets/images/galaxy23plus.jpg" alt="갤럭시 S23 plus">
                 <h3>SAMSUNG 갤럭시 S23 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,353,000원</p>
@@ -294,7 +294,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy23">
-                <img src="images/re1.jpg" alt="갤럭시 S23">
+                <img src="resources/assets/images/re1.jpg" alt="갤럭시 S23">
                 <h3>SAMSUNG 갤럭시 S23</h3>
                 <p>128GB</p>
                 <p class="price">1,144,000원</p>
@@ -302,7 +302,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy23ultra">
-                <img src="images/galaxy22ultra.jpg" alt="갤럭시 S22 ultra">
+                <img src="resources/assets/images/galaxy22ultra.jpg" alt="갤럭시 S22 ultra">
                 <h3>SAMSUNG 갤럭시 S22 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,459,000원</p>
@@ -310,7 +310,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy22plus">
-                <img src="images/galaxy22plus.jpg" alt="갤럭시 S22 plus">
+                <img src="resources/assets/images/galaxy22plus.jpg" alt="갤럭시 S22 plus">
                 <h3>SAMSUNG 갤럭시 S22 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
@@ -318,7 +318,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy22">
-                <img src="images/galaxy22.jpg" alt="갤럭시 S22">
+                <img src="resources/assets/images/galaxy22.jpg" alt="갤럭시 S22">
                 <h3>SAMSUNG 갤럭시 S22</h3>
                 <p>128GB</p>
                 <p class="price">999,000원</p>
@@ -326,7 +326,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy21ultra">
-                <img src="images/galaxy21ultra.jpg" alt="갤럭시 S21 ultra">
+                <img src="resources/assets/images/galaxy21ultra.jpg" alt="갤럭시 S21 ultra">
                 <h3>SAMSUNG 갤럭시 S21 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,139,000원</p>
@@ -334,7 +334,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy21plus">
-                <img src="images/galaxy21plus.jpg" alt="갤럭시 S21 plus">
+                <img src="resources/assets/images/galaxy21plus.jpg" alt="갤럭시 S21 plus">
                 <h3>SAMSUNG 갤럭시 S21 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
@@ -342,7 +342,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy21">
-                <img src="images/galaxy21.jpg" alt="갤럭시 S21">
+                <img src="resources/assets/images/galaxy21.jpg" alt="갤럭시 S21">
                 <h3>SAMSUNG 갤럭시 S21</h3>
                 <p>128GB</p>
                 <p class="price">990,000원</p>
@@ -350,7 +350,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy20ultra">
-                <img src="images/galaxy20ultra.jpg" alt="갤럭시 S20 ultra">
+                <img src="resources/assets/images/galaxy20ultra.jpg" alt="갤럭시 S20 ultra">
                 <h3>SAMSUNG 갤럭시 S20 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,593,000원</p>
@@ -358,7 +358,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy20plus">
-                <img src="images/galaxy20plus.jpg" alt="갤럭시 S20 plus">
+                <img src="resources/assets/images/galaxy20plus.jpg" alt="갤럭시 S20 plus">
                 <h3>SAMSUNG 갤럭시 S20 plus</h3>
                 <p>128GB</p>
                 <p class="price">1,353,000원</p>
@@ -366,7 +366,7 @@
             </div>
 
             <div class="product-card" data-id="galaxy20">
-                <img src="images/galaxy20.jpg" alt="갤럭시 S20">
+                <img src="resources/assets/images/galaxy20.jpg" alt="갤럭시 S20">
                 <h3>SAMSUNG 갤럭시 S20</h3>
                 <p>128GB</p>
                 <p class="price">995,500원</p>
@@ -374,7 +374,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyflip5">
-                <img src="images/galaxyflip5.jpg" alt="갤럭시 Z flip 5">
+                <img src="resources/assets/images/galaxyflip5.jpg" alt="갤럭시 Z flip 5">
                 <h3>SAMSUNG 갤럭시 Z Flip 5</h3>
                 <p>128GB</p>
                 <p class="price">1,399,200원</p>
@@ -382,7 +382,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyflip4">
-                <img src="images/galaxyflip4.jpg" alt="갤럭시 Z flip 4">
+                <img src="resources/assets/images/galaxyflip4.jpg" alt="갤럭시 Z flip 4">
                 <h3>SAMSUNG 갤럭시 Z Flip 4</h3>
                 <p>128GB</p>
                 <p class="price">1,353,200원</p>
@@ -390,7 +390,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyflip3">
-                <img src="images/galaxyflip3.jpg" alt="갤럭시 Z flip 3">
+                <img src="resources/assets/images/galaxyflip3.jpg" alt="갤럭시 Z flip 3">
                 <h3>SAMSUNG 갤럭시 Z Flip 3</h3>
                 <p>128GB</p>
                 <p class="price">1,254,000원</p>
@@ -398,7 +398,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyflip">
-                <img src="images/galaxyflip1.jpg" alt="갤럭시 Z flip">
+                <img src="resources/assets/images/galaxyflip1.jpg" alt="갤럭시 Z flip">
                 <h3>SAMSUNG 갤럭시 Z Flip </h3>
                 <p>128GB</p>
                 <p class="price">169,200원</p>
@@ -406,7 +406,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyfold5">
-                <img src="images/galaxyfold5.jpg" alt="갤럭시 Z fold 5">
+                <img src="resources/assets/images/galaxyfold5.jpg" alt="갤럭시 Z fold 5">
                 <h3>SAMSUNG 갤럭시 Z Fold 5</h3>
                 <p>128GB</p>
                 <p class="price">2,097,700원</p>
@@ -414,7 +414,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyfold4">
-                <img src="images/re2.jpg" alt="갤럭시 Z fold 4">
+                <img src="resources/assets/images/re2.jpg" alt="갤럭시 Z fold 4">
                 <h3>SAMSUNG 갤럭시 Z Fold 4</h3>
                 <p>128GB</p>
                 <p class="price">1,998,700원</p>
@@ -422,7 +422,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyfold3">
-                <img src="images/galaxyfold3.jpg" alt="갤럭시 Z fold 3">
+                <img src="resources/assets/images/galaxyfold3.jpg" alt="갤럭시 Z fold 3">
                 <h3>SAMSUNG 갤럭시 Z Fold 3</h3>
                 <p>128GB</p>
                 <p class="price">1,998,700원</p>
@@ -430,7 +430,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyfold2">
-                <img src="images/galaxyfold2.jpg" alt="갤럭시 Z fold 2">
+                <img src="resources/assets/images/galaxyfold2.jpg" alt="갤럭시 Z fold 2">
                 <h3>SAMSUNG 갤럭시 Z Fold 2</h3>
                 <p>128GB</p>
                 <p class="price">1,808,700원</p>
@@ -438,7 +438,7 @@
             </div>
 
             <div class="product-card" data-id="galaxyfold1">
-                <img src="images/galaxyfold1.jpg" alt="갤럭시 Z fold 1">
+                <img src="resources/assets/images/galaxyfold1.jpg" alt="갤럭시 Z fold 1">
                 <h3>SAMSUNG 갤럭시 Z Fold 1</h3>
                 <p>128GB</p>
                 <p class="price">950,700원</p>
@@ -446,7 +446,7 @@
             </div>
 
             <div class="product-card" data-id="galaxynote20ultra">
-                <img src="images/galaxynote20ultra.jpg" alt="갤럭시 note20ultra">
+                <img src="resources/assets/images/galaxynote20ultra.jpg" alt="갤럭시 note20ultra">
                 <h3>SAMSUNG 갤럭시 Note20 ultra</h3>
                 <p>128GB</p>
                 <p class="price">1,452,000원</p>
@@ -454,7 +454,7 @@
             </div>
 
             <div class="product-card" data-id="galaxynote20">
-                <img src="images/galaxynote20.jpg" alt="갤럭시 note20">
+                <img src="resources/assets/images/galaxynote20.jpg" alt="갤럭시 note20">
                 <h3>SAMSUNG 갤럭시 Note 20</h3>
                 <p>128GB</p>
                 <p class="price">1,199,000원</p>
@@ -462,6 +462,20 @@
             </div>
         </div>
     </div>
-    <script src="resources/assets/css/PLUG.css"></script >
+    <script src="resources/assets/css/PLUG.css">
+    document.addEventListener('DOMContentLoaded', function() {
+        const viewButtons = document.querySelectorAll('.view-btn');
+        viewButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const href = this.getAttribute('data-href');
+                window.location.href = `/product/${href}`; // 컨트롤러 경로로 이동
+            });
+        });
+    });
+    
+    
+    
+    
+    </script >
 </body>
 </html>
