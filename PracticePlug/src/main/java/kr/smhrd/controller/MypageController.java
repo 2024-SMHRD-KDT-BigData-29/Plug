@@ -25,10 +25,7 @@ public class MypageController {
 		return "redirect:/mypage";
 	}
 	
-	@RequestMapping("/mypage")
-	public String goMypage2() {
-		return "mypage";
-	}
+	
 	@RequestMapping("updateuser")
 	public String updateUserInfo() {
 		return "redirect:/mypage";

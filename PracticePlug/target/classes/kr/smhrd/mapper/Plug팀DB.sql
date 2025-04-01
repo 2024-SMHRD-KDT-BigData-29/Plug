@@ -178,6 +178,13 @@ ALTER TABLE tb_favorite
     SHOW GRANTS FOR CURRENT_USER;
     
     GRANT ALL PRIVILEGES ON used_phone_db.* TO 'root'@'localhost';
+    
+   ;
+   
+    
+    
+    
+    
 FLUSH PRIVILEGES;
 
 USE used_phone_db;
