@@ -468,7 +468,7 @@
         viewButtons.forEach(button => {
             button.addEventListener('click', function() {
                 const href = this.getAttribute('data-href');
-                window.location.href = `/product/${href}`; // 컨트롤러 경로로 이동
+                window.location.href = `/${href}`; // 컨트롤러 경로로 이동
             });
         });
     });
