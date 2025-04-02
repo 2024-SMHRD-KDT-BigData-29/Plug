@@ -463,7 +463,7 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
+
     <script src="resources/assets/css/PLUG.css">
     document.addEventListener('DOMContentLoaded', function() {
         const viewButtons = document.querySelectorAll('.view-btn');
@@ -479,8 +479,7 @@
     
     
     </script >
-=======
+
     <script src="resources/assets/css/PLUG.css"></script >
->>>>>>> branch 'master' of https://github.com/2024-SMHRD-KDT-BigData-29/Plug.git
 </body>
 </html>
