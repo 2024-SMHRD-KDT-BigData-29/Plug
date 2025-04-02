@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <mapper namespace="kr.smhrd.mapper.TB_FavoriteMapper">
-
-    <!-- 찜 목록 조회 (phone 정보와 조인) -->
     <select id="getFavorite" parameterType="string" resultType="kr.smhrd.entity.TB_UsedPhone">
         SELECT p.* FROM tb_used_phone p
-        JOIN tb_favorite w ON p.phone_idx = w.phone_idx
-        WHERE w.user_id = #{user_id}
+        JOIN tb_favorite f ON p.phone_idx = f.phone_idx
+        WHERE f.user_id = #{user_id}
     </select>
 
-    <!-- 찜 목록에서 삭제 -->
     <delete id="deletefavoriteItem" parameterType="map">
         DELETE FROM tb_favorite WHERE user_id = #{user_id} AND phone_idx = #{phone_idx}
     </delete>
 
+    <insert id="addFavorite" parameterType="map">
+        INSERT INTO tb_favorite (phone_idx, user_id, created_at)
+        VALUES (#{phone_idx}, #{user_id}, #{created_at})
+    </insert>
 </mapper>

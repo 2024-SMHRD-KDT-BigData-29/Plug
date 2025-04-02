@@ -45,12 +45,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 상품 등록 폼 처리
     document.getElementById('register-item-form')?.addEventListener('submit', function(e) {
-        const imageFile = document.getElementById('phone_img1')?.files[0];
-        if (!imageFile) {
-            e.preventDefault();
-            alert('상품 이미지를 선택해주세요!');
-        }
-    });
+    const imageFile = document.getElementById('phone_img1')?.files[0];
+    if (!imageFile) {
+        e.preventDefault();
+        alert('상품 이미지를 선택해주세요!');
+        return false;
+    }
+    return true;
+});
 
     // 프로필 정보 저장
     document.getElementById('profile-form')?.addEventListener('submit', function(e) {
@@ -66,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadUserInfo() {
     if (!userData || !userData.user_id) {
         console.error('세션 데이터가 없습니다.');
-        window.location.href = '/login';
+        window.location.href = contextPath + '/login';
         return;
     }
 
@@ -100,12 +102,12 @@ function loadTradingItems() {
                 <p>품질: ${product.quality}</p>
                 <p class="price">${product.price.toLocaleString()}원</p>
                 <p>등록일: ${new Date(product.created_at).toLocaleDateString()}</p>
-                <form action="/updateProductStatus.do" method="post" style="display: inline;">
+                <form action="${contextPath}/updateProductStatus.do" method="post" style="display: inline;">
                     <input type="hidden" name="productId" value="${product.phone_idx}">
                     <input type="hidden" name="status" value="completed">
                     <button type="submit" class="complete-btn">거래완료</button>
                 </form>
-                <form action="/deleteProduct.do" method="post" style="display: inline;">
+                <form action="${contextPath}/deleteProduct.do" method="post" style="display: inline;">
                     <input type="hidden" name="productId" value="${product.phone_idx}">
                     <button type="submit" class="delete-btn" onclick="return confirm('정말로 이 상품을 삭제하시겠습니까?')">삭제</button>
                 </form>
@@ -130,7 +132,7 @@ function loadFavorite() {
                 <h3>${item.brand} ${item.model}</h3>
                 <p>${item.capacity}</p>
                 <p class="price">${item.price.toLocaleString()}원</p>
-                <form action="/removeFromWishlist.do" method="post" style="display: inline;">
+                <form action="${contextPath}/removeFromWishlist.do" method="post" style="display: inline;">
                     <input type="hidden" name="productId" value="${item.phone_idx}">
                     <button type="submit" class="remove-btn">삭제</button>
                 </form>
@@ -158,7 +160,7 @@ function loadCompletedItems() {
                 <p>품질: ${product.quality}</p>
                 <p class="price">${product.price.toLocaleString()}원</p>
                 <p>등록일: ${new Date(product.created_at).toLocaleDateString()}</p>
-                <form action="/deleteProduct.do" method="post" style="display: inline;">
+                <form action="${contextPath}/deleteProduct.do" method="post" style="display: inline;">
                     <input type="hidden" name="productId" value="${product.phone_idx}">
                     <button type="submit" class="delete-btn" onclick="return confirm('정말로 이 상품을 삭제하시겠습니까?')">삭제</button>
                 </form>
@@ -166,3 +168,4 @@ function loadCompletedItems() {
         </div>
     `).join('');
 }
+
