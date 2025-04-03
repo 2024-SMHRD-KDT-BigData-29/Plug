@@ -181,7 +181,12 @@ ALTER TABLE tb_favorite
     
    ;
    
-    
+ ALTER TABLE tb_croom
+    DROP FOREIGN KEY fk_tb_croom_phone_idx_tb_used_phone;
+
+ALTER TABLE tb_croom
+    ADD CONSTRAINT fk_tb_croom_phone_idx_tb_used_phone 
+    FOREIGN KEY (phone_idx) REFERENCES tb_used_phone (phone_idx);   
     
     
     

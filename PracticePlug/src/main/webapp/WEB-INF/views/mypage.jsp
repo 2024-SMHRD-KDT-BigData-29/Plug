@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>마이페이지</title>
-    <link rel="stylesheet" href="resources/assets/css/PLUG.css">
-    <link rel="stylesheet" href="resources/assets/css/mypage.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/PLUG.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/mypage.css">
 </head>
 <body>
     <div class="container">
@@ -15,11 +15,11 @@
         <header class="header">
             <h1 class="logo">Plug</h1>
             <div class="auth-links">
-                <a href="board">Plug 마켓</a>
-                <a href="login">로그인</a>
-                <a href="#">마이페이지</a>
-                <a href="join">회원가입</a>
-                <a href="PLUG">홈</a>
+                <a href="${pageContext.request.contextPath}/board">Plug 마켓</a>
+                <a href="${pageContext.request.contextPath}/login">로그인</a>
+                <a href="${pageContext.request.contextPath}/mypage">마이페이지</a>
+                <a href="${pageContext.request.contextPath}/join">회원가입</a>
+                <a href="${pageContext.request.contextPath}/">홈</a>
             </div>
         </header>
 
@@ -36,12 +36,13 @@
             <!-- 개인정보 수정 섹션 -->
             <section class="profile-section">
                 <div class="profile-image">
-                    <img id="profile-img" src="images/이채영1.png" alt="프로필 사진">
+                    <img id="profile-img" src="${pageContext.request.contextPath}/images/default-profile.jpg" alt="프로필 사진">
                     <input type="file" id="profile-img-input" accept="image/*" style="display: none;">
                     <br>
                     <button id="change-profile-btn">프로필 사진 변경하기</button>
                 </div>
-                <form id="profile-form" action="/updateUserInfo.do" method="post">
+
+                <form id="profile-form" action="${pageContext.request.contextPath}/updateUserInfo.do" method="post">
                     <div class="info-item">
                         <label>아이디</label>
                         <input type="text" id="user_id" name="user_id" readonly>
@@ -87,7 +88,7 @@
             <!-- 물건 등록 섹션 -->
             <section class="register-item-section">
                 <h2>상품 등록</h2>
-                <form id="register-item-form" action="/registerProduct" accept="image/*" method="post" enctype="multipart/form-data">
+                <form id="register-item-form" action="${pageContext.request.contextPath}/registerProduct" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
                     <div class="form-group">
                         <label for="phone_img1">상품 이미지</label>
                         <input type="file" id="phone_img1" name="phone_img1" accept="image/*">
@@ -143,6 +144,9 @@
 
     <!-- 데이터 주입 -->
     <script>
+        // 컨텍스트 경로를 JavaScript 변수로 전달
+        const contextPath = "${pageContext.request.contextPath}";
+
         // 사용자 데이터
         const userData = {
             user_id: "${loginUser.user_id != null ? loginUser.user_id : ''}",
@@ -207,7 +211,7 @@
     </script>
 
     <!-- mypage.js 로드 후 초기화 -->
-    <script src="resources/assets/js/mypage.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/assets/js/mypage.js"></script>
     <script>
         // 페이지 로드 완료 시 사용자 정보 즉시 표시
         document.addEventListener('DOMContentLoaded', function() {
@@ -229,6 +233,43 @@
                 }
             }
         });
+
+        function validateForm() {
+            const price = document.getElementById("price").value;
+            const file = document.getElementById("phone_img1").files;
+
+            // 파일 선택 여부 확인
+            if (file.length === 0) {
+                alert("상품 이미지를 선택해주세요.");
+                return false;
+            }
+
+            // 가격이 숫자인지 확인
+            if (!/^\d+$/.test(price)) {
+                alert("가격은 숫자만 입력해주세요.");
+                return false;
+            }
+
+            return true;
+        }
     </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const error = urlParams.get('error');
+        const message = urlParams.get('message');
+        if (error) {
+            let errorMsg = '알 수 없는 오류가 발생했습니다.';
+            if (error === 'empty_file') {
+                errorMsg = '상품 이미지를 선택해주세요.';
+            } else if (error === 'dir_creation_failed') {
+                errorMsg = '서버에서 업로드 디렉토리를 생성할 수 없습니다.';
+            } else if (error === 'upload_failed' && message) {
+                errorMsg = '업로드 실패: ' + decodeURIComponent(message);
+            }
+            alert(errorMsg);
+        }
+    });
+</script>
 </body>
 </html>
