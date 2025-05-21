@@ -70,13 +70,17 @@ Java EE Websocket을 활용하여 채팅 구현
 50인 미만 사업장의 안전관리혁신을 위한 AI 기반 사고 예방 및 사후 조치 통합 애플리케이션
 Spring Framework 기반의 REST API + Vue.js 기반의 클라이언트로 구성된 Single Page Application입니다
 관련 근거 :
+
 ![image](https://github.com/user-attachments/assets/07ace713-87a8-4ff8-9338-f5210175c38a)
+
 ※ 도표분석 : 안전보건업무 전담인력을 배치하고 있는 기업은 28.3%에 그쳤고, 기업의 38.4%는 사업주가 직접 안전보건업무를 수행하고 있는 것으로 나타났으며, 32.4%는 인사 총무(19.2%)나 생산관리자(13.2%)가 겸직.
+
 서비스 흐름도 :
 ![image](https://github.com/user-attachments/assets/a4078cff-5f08-4256-a906-8d6509e1ba35)
 
 
 공공데이터 등등 웹서비스의 유용성을 높이는 API들을 활용하였습니다.
+
 [역할] : Back-end 
 
 DB구조 설계
