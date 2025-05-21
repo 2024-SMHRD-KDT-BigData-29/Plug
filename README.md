@@ -81,7 +81,6 @@ Java EE Websocket을 활용하여 채팅 구현
 Spring Framework 기반의 REST API + Vue.js 기반의 클라이언트로 구성된 Single Page Application입니다
 
 관련 근거 :
-
 ![image](https://github.com/user-attachments/assets/07ace713-87a8-4ff8-9338-f5210175c38a)
 
 ※ 도표분석 : 안전보건업무 전담인력을 배치하고 있는 기업은 28.3%에 그쳤고, 기업의 38.4%는 사업주가 직접 안전보건업무를 수행하고 있는 것으로 나타났으며, 32.4%는 인사 총무(19.2%)나 생산관리자(13.2%)가 겸직.
