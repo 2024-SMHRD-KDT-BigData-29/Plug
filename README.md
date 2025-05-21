@@ -5,22 +5,23 @@
  
 
 📧 Contact
+--
 Naver. email2372@naver.com
 Gmail. hj1938wj@gmail.com
 
  
 
 🛠️ Skills
-
+--
  Java  
 
 Java 인터페이스, Singleton 패턴, 또는 Builder 패턴을 이용한 MVC 패턴 구현 가능     
  
  Spring
 
-Spring MVC와 RESTful API를 이용한 SPA 개발 경험 : 빅데이터 분석 서비스개발자과정 최우수 프로젝트상 수상
-다형성을 활용하는 IoC와 DI 등 Spring의 의존성 관리 메커니즘의 학습과 이해  
-Autowired를 통해 결합도를 낮춤
+- Spring MVC와 RESTful API를 이용한 SPA 개발 경험 : 빅데이터 분석 서비스개발자과정 최우수 프로젝트상 수상
+- 다형성을 활용하는 IoC와 DI 등 Spring의 의존성 관리 메커니즘의 학습과 이해  
+- Autowired를 통해 결합도를 낮춤
  
  MySQL
 
@@ -31,8 +32,9 @@ SQLD 자격증 보유, 웹 프로젝트 DB설계 경험 다수
  
 
 💻 Project
-
+--
 📱Plug : 개인간 품질 별 중고폰 거래 플랫폼
+--
 '25.02.24 - '25.04.04 (6주) , 개발인원 4명
 
 [프로젝트 개요]
@@ -67,7 +69,7 @@ Java EE Websocket을 활용하여 채팅 구현
  
 
 고용노동 공공데이터 공모전 출품작
-
+--
 👷안전이음 : [50인 미만 사업장 맞춤형 “사고예방”과 “사후조치” 통합 플랫폼]
 
 '25.04.15 - '25.05.15 (5주) , 개발인원 4명
@@ -106,11 +108,13 @@ DB구조 설계
  
 
 📙 Education
+--
 전남대학교 자연대학 수학과 학사졸업 / 18.03 – 22.07
 스마트인재개발원 빅데이터 분석 서비스개발자과정 29기 수료 / '24.12.10 - '25.06.04
  
 
 💳 Certification
+--
 SQL개발자(SQLD) (25.04.04)
 
 데이터분석 준전문가(ADsP) (25.03.21)
